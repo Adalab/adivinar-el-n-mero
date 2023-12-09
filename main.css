@@ -1,0 +1,45 @@
+:root {
+    --color-green: #14d9c4;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: rgb(97, 95, 95);
+    margin-left: 10px;
+}
+.body {
+    display: flex;
+}
+.body__number {
+    padding: 5px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10%;
+    align-items: center;
+    color:rgb(97, 95, 95);
+
+}
+.body__button {
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--color-green);
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+
+}
+.body__clue {
+    display: flex;
+    max-width: 80%;
+    border:solid;
+    margin-top: 10px;
+    border-color: lightgray;
+    background-color: white;
+}
+.body__try {
+    display: flex;
+    max-width: 80%;
+    margin-top: 10px;
+    border: solid;
+    border-color: lightgray;
+}
