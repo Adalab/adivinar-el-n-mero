@@ -20,10 +20,10 @@ function comprobarNumero(event) {
       clue.innerHTML = "Pista: Demasiado bajo.";
       tries++;
     } else {
-      clue.innerHTML = "¡Has ganado campeona!!!";
+      clue.innerHTML = "¡Has ganado campeona!";
     }
   } else {
-    alert("El número debe estar entre 1 y 100");
+    clue.innerHTML= "El número debe estar entre 1 y 100";
   }
   const tryHolder = document.querySelector(".js_try");
   tryHolder.innerHTML = "Número de intentos: " + tries;
