@@ -1,1 +1,1 @@
-# adivinar-el-n-mero
+# adivinar-el-número
