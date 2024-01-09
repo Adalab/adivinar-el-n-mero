@@ -1,30 +1,29 @@
-# adivinar-el-número
-# Juego de Adivinar un Número
+Number Guessing Game
 
-Este es un juego simple creado con HTML, CSS y JavaScript donde el jugador tiene que adivinar un número aleatorio generado por la computadora.
+This is a simple game created using HTML, CSS, and JavaScript where the player has to guess a randomly generated number by the computer.
+Usage
 
-## Uso
+    Download or clone this repository to your computer.
 
-1. Descarga o clona este repositorio en tu ordenador.
+    Open the main.html file in your web browser.
 
-2. Abre el archivo `main.html` en tu navegador web.
+    You will see a simple interface prompting you to enter a number for guessing.
 
-3. Se mostrará una interfaz simple que te pedirá ingresar un número para adivinar.
+    Enter a number and press the "Guess" button.
 
-4. Ingresa un número y presiona el botón de "Adivinar".
+    You'll receive messages indicating whether the entered number is too high, too low, or correct.
 
-5. Recibirás mensajes indicando si el número ingresado es demasiado alto, demasiado bajo o correcto.
+    Keep guessing until you find the correct number.
 
-6. Sigue adivinando hasta que encuentres el número correcto.
+Technologies Used
 
-## Tecnologías utilizadas
+    HTML: For the structure and content of the web page.
+    CSS: For the design and visual styles of the game.
+    JavaScript: For the logic and interactivity of the game.
 
-- HTML: Para la estructura y contenido de la página web.
-- CSS: Para el diseño y estilos visuales del juego.
-- JavaScript: Para la lógica y la interactividad del juego.
+File Structure
 
-## Estructura de archivos
+    index.html: Contains the HTML structure of the game.
+    main.css: CSS file defining the visual styles of the game.
+    main.js: JavaScript file containing the game logic.
 
-- `main.html`: Contiene la estructura HTML del juego.
-- `main.css`: Archivo CSS que define los estilos visuales del juego.
-- `main.js`: Archivo JavaScript que contiene la lógica del juego.
